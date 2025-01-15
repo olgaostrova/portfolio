@@ -108,6 +108,11 @@ module.exports = {
       chunks: ['index']
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/second.html',
+      filename: './second.html',
+      chunks: ['index']
+    }),
     //404
 
     new HtmlWebpackPlugin({
