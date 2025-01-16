@@ -358,7 +358,7 @@ body {
         gap: 16px;
         mix-blend-mode: difference;
 
-        @media screen and (max-width: 430px) {
+        @media screen and (max-width: 480px) {
             width: 100%;
         }
     }
@@ -572,6 +572,8 @@ body {
     align-items: flex-start;
     align-self: stretch;
     overflow: hidden;
+    min-height: 720px;
+
     @media screen and (max-width: 430px) {
             padding: 16px 16px;
     }
@@ -583,7 +585,7 @@ body {
         align-items: flex-start;
         gap: 16px;
 
-        @media screen and (max-width: 430px) {
+        @media screen and (max-width: 480px) {
             width: 100%;
         }
     }
